@@ -42,7 +42,43 @@
       margin: 30px auto;
       padding: 20px;
     }
-
+    .dropbtn {
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: white;
+      min-width: 180px;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: left;
+      z-index: 1000;
+    }
+    
+    .dropdown-content a {
+      display: block;
+      padding: 10px;
+      color: #222;
+      text-decoration: none;
+    }
+    
+    .dropdown-content a:hover {
+      background: #f0f0f0;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
     .project-card {
       display: flex;
       gap: 25px;
@@ -111,6 +147,15 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
+  
+    <div class="dropdown">
+      <span class="dropbtn">Laboratory Equipment</span>
+      <div class="dropdown-content">
+        <a href="tacna.html">TACNA</a>
+        <a href="lambayeque.html">LAMBAYEQUE</a>
+      </div>
+    </div>
+  
     <a href="projects.html">Projects</a>
   </nav>
 
