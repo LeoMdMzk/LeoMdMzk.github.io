@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Leonardo Miranda</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url("images/header-texture.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: rgba(20, 40, 60, 0.9);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .project-card {
+      display: flex;
+      gap: 25px;
+      background: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .project-image img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .project-content {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .project-content h2 {
+      margin-top: 0;
+    }
+
+    .project-links {
+      margin-top: 15px;
+    }
+
+    .project-links a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 8px;
+      padding: 8px 14px;
+      text-decoration: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 14px;
+    }
+
+    .youtube { background: #ff0000; }
+    .github { background: #333; }
+    .wiki { background: #6e5494; }
+
+    .project-links a:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Engineering Projects</h1>
+    <p>Selected work in CFD, hydraulics, and numerical modelling</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <main>
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="images/Projects/Project1_ExternalBridge.png" alt="External flow over bridge">
+      </div>
+
+      <div class="project-content">
+        <h2>External Flow on a Bridge</h2>
+
+        <p>
+          Numerical simulation of external aerodynamic flow over a bridge deck using OpenFOAM.
+          The study focuses on flow separation, vortex shedding, and force estimation (drag, lift, moment).
+        </p>
+
+        <div class="project-links">
+          <a href="https://www.youtube.com/watch?v=Zo58Vmwz9fo" target="_blank" class="youtube">YouTube</a>
+          <a href="https://github.com/LeoMdMzk/OpenFOAM8-applied/tree/main/externalBridge" target="_blank" class="github">Repository</a>
+          <a href="https://github.com/LeoMdMzk/OpenFOAM8-applied/wiki/External-flow-over-a-bridge" target="_blank" class="wiki">Wiki</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- TEMPLATE FOR FUTURE PROJECTS -->
+    <!--
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/Projects/project2.png" alt="Project 2">
+      </div>
+
+      <div class="project-content">
+        <h2>Project Title</h2>
+        <p>Short description of the project.</p>
+
+        <div class="project-links">
+          <a href="#" class="youtube">YouTube</a>
+          <a href="#" class="github">Repository</a>
+          <a href="#" class="wiki">Wiki</a>
+        </div>
+      </div>
+    </div>
+    -->
+
+  </main>
+
+  <footer>
+    <p>© Leonardo J. Miranda M.</p>
+  </footer>
+
+</body>
+</html>
