@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #222;
+    }
+    header {
+      background: #1f3b57;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #163047;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      width: 300px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+  </nav>
+
+  <main>
+    <p>Here are some selected professional images and projects.</p>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="images/photo1.jpg" alt="Project 1">
+        <p><strong>Project 1</strong><br>Short description of the work.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/photo2.jpg" alt="Project 2">
+        <p><strong>Project 2</strong><br>Short description of the work.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/photo3.jpg" alt="Project 3">
+        <p><strong>Project 3</strong><br>Short description of the work.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Leonardo Miranda</p>
+  </footer>
+</body>
+</html>
