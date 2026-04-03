@@ -54,6 +54,50 @@
       padding: 20px;
       color: #666;
     }
+    nav {
+      background: rgba(20, 40, 60, 0.85);
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: white;
+      min-width: 180px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border-radius: 6px;
+      text-align: left;
+      z-index: 1000;
+    }
+    
+    .dropdown-content a {
+      display: block;
+      color: #222;
+      padding: 10px 14px;
+      margin: 0;
+      text-decoration: none;
+    }
+    
+    .dropdown-content a:hover {
+      background: #f0f0f0;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
   </style>
 </head>
 <body>
