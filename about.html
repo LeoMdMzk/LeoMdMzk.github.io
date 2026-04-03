@@ -109,29 +109,43 @@
       text-align: center;
     }
     
-    .social-buttons {
+    .social-icons {
       margin-top: 20px;
     }
     
-    .btn {
-      display: inline-block;
-      padding: 12px 20px;
+    .icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
       margin: 10px;
+      border-radius: 50%;
       text-decoration: none;
-      color: white;
-      border-radius: 8px;
-      font-weight: bold;
+      transition: transform 0.2s ease, opacity 0.2s ease;
     }
     
-    .youtube {
-      background: #cc0000;
+    .icon img {
+      width: 28px;
+      height: 28px;
     }
     
+    /* Brand colors */
     .linkedin {
       background: #0077b5;
     }
     
-    .btn:hover {
+    .youtube {
+      background: #ff0000;
+    }
+    
+    .github {
+      background: #333333;
+    }
+    
+    /* Hover effect */
+    .icon:hover {
+      transform: scale(1.1);
       opacity: 0.85;
     }
   </style>
@@ -186,12 +200,23 @@
       <hr style="margin:40px 0;">
     
       <div class="social-section">
-        <h2>Follow me on my social media</h2>
-        <p>Explore my work, projects, and engineering content.</p>
-    
-        <div class="social-buttons">
-          <a href="https://www.youtube.com/@LeonardoMirandaMiyazaki" target="_blank" class="btn youtube">YouTube</a>
-          <a href="https://www.linkedin.com/in/leonardojmirandamyzk28/" target="_blank" class="btn linkedin">LinkedIn</a>
+        <h2>Follow my engineering journey</h2>
+        <p>Insights, projects, and hands-on experience in hydraulics and fluid mechanics.</p>
+      
+        <div class="social-icons">
+      
+          <a href="https://www.linkedin.com/in/leonardojmirandamyzk28/" target="_blank" class="icon linkedin">
+            <img src="images/Icons/LinkedIn_icon.png" alt="LinkedIn">
+          </a>
+      
+          <a href="https://www.youtube.com/@LeonardoMirandaMiyazaki" target="_blank" class="icon youtube">
+            <img src="images/Icons/Youtube_icon.png" alt="YouTube">
+          </a>
+      
+          <a href="https://github.com/LeoMdMzk" target="_blank" class="icon github">
+            <img src="images/Icons/Github_icon.png" alt="GitHub">
+          </a>
+      
         </div>
       </div>
     
