@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAMBAYEQUE - Leonardo Miranda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #222;
+    }
 
+    header {
+      background-image: url("images/Master/Plancha.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: rgba(20, 40, 60, 0.85);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .dropbtn {
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: white;
+      min-width: 180px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border-radius: 6px;
+      text-align: left;
+      z-index: 1000;
+    }
+
+    .dropdown-content a {
+      display: block;
+      color: #222;
+      padding: 10px 14px;
+      margin: 0;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background: #f0f0f0;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      width: 300px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leonardo Miranda - Technical Instructor</h1>
+    <p>TACNA - PERÚ</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+
+    <div class="dropdown">
+      <span class="dropbtn">Laboratory Equipment</span>
+      <div class="dropdown-content">
+        <a href="tacna.html">TACNA</a>
+        <a href="lambayeque.html">LAMBAYEQUE</a>
+      </div>
+    </div>
+
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <main>
+    <h2>FLUME HM 162 - NATIONAL UNIVERSITY PEDRO RUIZ GALLO (LAMBAYEQUE)</h2>
+    <p>Selected images from the training for the Flume Channel HM 162 (GUNT) in the National University Pedro Ruiz Gallo.</p>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="images/Lambayeque/LMB_Training1.jpeg" alt="Training picture">
+        <p><strong>Training session</strong><br>Training session for professors and research assistants with the Flume HM 162 (GUNT).</p>
+      </div>
+
+      <div class="card">
+        <img src="images/Lambayeque/LMB_Training2.jpeg" alt="Flume experiment">
+        <p><strong>Training guidance</strong><br>Working as a training support.</p>
+      </div>
+      
+      <div class="card">
+        <img src="images/Lambayeque/LMB_Training3.png" alt="Setting gauge">
+        <p><strong>Gauges</strong><br>Setting the gauges for the laboratory measurements.</p>
+      </div>
+      
+      <div class="card">
+        <img src="images/Lambayeque/LMB_Training4.png" alt="Control Panel">
+        <p><strong>Control panel</strong><br>Explaining the control options for the flume.</p>
+      </div>
+      
+      <div class="card">
+        <img src="images/Lambayeque/LMB_NPZgroup.jpeg" alt="Group picture">
+        <p><strong>NPZ team</strong><br>NPZ|GUNT team for the installation and training.</p>
+      </div>
+    </div>
+    
+    <h2>MECHANICAL EQUIPMENT - NATIONAL UNIVERSITY PEDRO RUIZ GALLO (LAMBAYEQUE)</h2>
+    <p>Selected images from the training for the mechanical equipment in the National University Pedro Ruiz Gallo.</p>
+    
+    <div class="gallery">
+      <div class="card">
+        <img src="images/Lambayeque/LMB_Mech1.jpg" alt="Group picture">
+        <p><strong>Mechanical training</strong><br>Training for professors at the laboratory of Mechanical Equipment.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© Leonardo J. Miranda M.</p>
+  </footer>
+</body>
+</html>
