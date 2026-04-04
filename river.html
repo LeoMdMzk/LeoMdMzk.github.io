@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiences - Leonardo Miranda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background-image: url("images/Master/Plancha.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: rgba(20, 40, 60, 0.85);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .dropbtn {
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: white;
+      min-width: 180px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border-radius: 6px;
+      text-align: left;
+      z-index: 1000;
+    }
+
+    .dropdown-content a {
+      display: block;
+      color: #222;
+      padding: 10px 14px;
+      margin: 0;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background: #f0f0f0;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      width: 300px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leonardo Miranda - Experiences</h1>
+    <p>RIVER PROTECTION</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+
+    <div class="dropdown">
+      <span class="dropbtn">Laboratory Equipment</span>
+      <div class="dropdown-content">
+        <a href="tacna.html">TACNA</a>
+        <a href="lambayeque.html">LAMBAYEQUE</a>
+      </div>
+    </div>
+
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <main>
+    <h2>RÍMAC RIVER DEFENSES - INTEGRAL SOLUTIONS (2024-2025)</h2>
+    <p>This is a gallery of the field studies where I deployed the Fluvial Hydraulics study.</p>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="images/Lima/LIM_Flume1.jpg" alt="Ogee weir">
+        <p><strong>Ogee weir</strong><br>Testing the accesory HM 160.32 - Ogee crested weir (GUNT).</p>
+      </div>
+
+      <div class="card">
+        <img src="images/Lima/LIM_Flume2.jpg" alt="Roughness">
+        <p><strong>Channel roughness</strong><br>The manning formula is applied to estimate the energy losses in the flume and the characteristic roughness.</p>
+      </div>
+      
+    </div>
+    
+    <h2>TUMBES RIVER DEFENSES - INTEGRAL SOLUTIONS (2022-2024)</h2>
+    <p>This is a gallery of the field studies where I deployed the Fluvial Hydraulics study.</p>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="images/Lima/LIM_Flume1.jpg" alt="Ogee weir">
+        <p><strong>Ogee weir</strong><br>Testing the accesory HM 160.32 - Ogee crested weir (GUNT).</p>
+      </div>
+
+      <div class="card">
+        <img src="images/Lima/LIM_Flume2.jpg" alt="Roughness">
+        <p><strong>Channel roughness</strong><br>The manning formula is applied to estimate the energy losses in the flume and the characteristic roughness.</p>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer>
+    <p>© Leonardo J. Miranda M.</p>
+  </footer>
+</body>
+</html>
